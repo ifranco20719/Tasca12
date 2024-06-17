@@ -1,9 +1,9 @@
-import ex1  # Importa el módulo ex1.
-import ex2  # Importa el módulo ex2.
-import ex3  # Importa el módulo ex3.
-import ex4  # Importa el módulo ex4.
-import ex5  # Importa el módulo ex5.
-import ex6  # Importa el módulo ex6.
+import ex1
+import ex2
+import ex3
+import ex4
+import ex5
+import ex6
 
 def menu():
     op=0
