@@ -1,6 +1,6 @@
-import pygame
-import random
-import time
+import pygame  # Importa el módulo pygame para crear juegos.
+import random  # Importa el módulo random para generar números aleatorios.
+import time    # Importa el módulo time para manejar tiempos.
 
 
 

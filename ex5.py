@@ -1,4 +1,4 @@
-import requests
+import requests # Importa el módulo requests para hacer peticiones HTTP.
 # Sol·licita el nom de la ciutat
 def pex5():
     ciutat=input("Indiqui el nom de la ciutat: ")
