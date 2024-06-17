@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <title>Vista de l’enquesta</title>
+</head>
+<body>
+    <ul>
+        {% for question in latest_question_list %}
+            <li><a href="{% url 'enquesta:detail' question.id %}">{{ question.text_pregunta }}</a></li>
+        {% empty %}
+            <li>No questions are available.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
